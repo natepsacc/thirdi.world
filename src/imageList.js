@@ -70,7 +70,11 @@ const imageClick = (props) => {
    <Box
    onClick={toggleClicked}
      sx={{
-       m:10,
+       m:{
+         mobile:1,
+         bigMobile:1,
+         tablet:3,
+         desktop:10},
        height: {
          mobile: clicked ? "35vh" : "100%",
          bigMobile: clicked ? "35vh" : "100%",
@@ -94,7 +98,7 @@ const imageClick = (props) => {
 
 
        <ImageListItem
-id='imgimg' key={item.img} id="height" sx={{ p:10,}}>
+id='imgimg' key={item.img} id="height" sx={{ }}>
 
        <LazyLoadImage
        sx={{ p:10,}}
