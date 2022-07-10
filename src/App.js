@@ -104,7 +104,7 @@ function Logo(){
 		<div id="nav" class="nav">
 		<a href="#/" ><b class="b bionic">thir</b>di </a>
 		<a href="#/contact"> <b class="b bionic">cont</b>act </a>
-    <a href="instagram.com/schidtery" ><b class="b bionic">instag</b>ram </a>
+    <a href="https://www.instagram.com/" ><b class="b bionic">instag</b>ram </a>
 
 
 		</div>
