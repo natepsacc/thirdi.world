@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './index.css';
 import StandardImageList from './imageList.js';
+import Contactsheet from './contact.js';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
@@ -13,7 +14,6 @@ import InputLabel from '@mui/material/InputLabel';
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  document.body.style.backgroundColor = "#F0C0C9";
 
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("TitleLogo").style.height = "20vh";
@@ -36,11 +36,6 @@ function scrollFunction() {
 
 
   }
-	if (document.body.scrollTop > 1400 || document.documentElement.scrollTop > 400) {
-
-	} else {
-		document.body.style.backgroundColor = "#d8e8ef";
-	}
 
 
 
@@ -48,20 +43,27 @@ function scrollFunction() {
 let tagapp = "all";
 
 function Home(){
+  console.log('fuck');
+
 	return(
 		<span>
 	<Logo/>
 	<StandardImageList tag="all" gridColumns="2"/>
 	</span>
 );
+
 }
 function Contact(){
-	return(
+
+  	return(
 		<span>
 	<Logo/>
 
+<Contactsheet/>
+<StandardImageList tag='none' />
 	</span>
 );
+
 }
 function Rad(props){
 	return(
@@ -93,12 +95,12 @@ function App() {
 
 
 
-function Logo(){
+function Logo(props){
 
 	return(
 		<span>
 		<a href="/" >
-	<img  id="TitleLogo" alt="Schidt.co Logo" src="https://i.imgur.com/NrYM2op.png"/>
+	<img  className="TitleLogo" id="TitleLogo"  alt="Schidt.co Logo" src="https://i.imgur.com/NrYM2op.png"/>
 		</a>
 
 		<div id="nav" class="nav">

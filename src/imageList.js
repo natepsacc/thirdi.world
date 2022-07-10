@@ -38,9 +38,7 @@ export default function StandardImageList(props) {
       if (element.tag2 === props.tag) {
           return element;
       }
-      if (element.text === 'text') {
-  //      document.getElementsByClassName('imgsvg').append;
-      }
+
       if (element.tag3 === 'noshow') {
           return !element;
       }
@@ -64,12 +62,13 @@ const imageClick = (props) => {
   const [clicked, setClicked] = useState(false)
   const toggleClicked = () => setClicked((prev) => !prev)
       return (
-
+<span id='imagelistspan'>
       <ThemeProvider theme={theme}>
 
    <Box
    onClick={toggleClicked}
      sx={{
+       backgroundColor: "#ffffff7c",
        m:{
          mobile:0,
          bigMobile:1,
@@ -98,10 +97,12 @@ const imageClick = (props) => {
 
 
        <ImageListItem
-id='imgimg' key={item.img} id="height" sx={{ }}>
+id='imgimg' key={item.img} id="height" sx={{backgroundColor: "#ffffff7c",
+}}>
 
        <LazyLoadImage
-       sx={{ p:10,}}
+       sx={{ p:10,       backgroundColor: "#ffffff7c",
+}}
           threshhold='100'
            width="100%"
            height="inherit"
@@ -144,7 +145,7 @@ id='imgimg' key={item.img} id="height" sx={{ }}>
 
    </Box>
  </ThemeProvider>
-
+</span>
       );
 }
 
