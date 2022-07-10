@@ -51,7 +51,6 @@ function Home(){
 	return(
 		<span>
 	<Logo/>
-	//<Footer/>
 	<StandardImageList tag="all" gridColumns="2"/>
 	</span>
 );
@@ -61,7 +60,6 @@ function Rad(props){
 	return(
 		<span>
 	<Logo/>
-//	<Footer/>
 	<StandardImageList tag={props.tag} gridColumns="2"/>
 	</span>
 );
@@ -121,16 +119,6 @@ function unusued(){
 }
 
 
-function Footer(){
-//	return(
-//<div id="footer">
-//<span style={{backgroundColor: "#d8e8ef"}}>
-//natepsacc@gmail.com, @schidtery,
-//<br/>Schidt.co is a Web3 site, welcome to the new world.
 
-//</span>
-//</div>
-//);
-}
 
 export default App;

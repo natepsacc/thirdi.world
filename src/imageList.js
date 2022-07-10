@@ -71,8 +71,8 @@ const imageClick = (props) => {
    onClick={toggleClicked}
      sx={{
        height: {
-         mobile: clicked ? "35vh" : "600px",
-         bigMobile: clicked ? "35vh" : "85vh",
+         mobile: clicked ? "35vh" : "100%",
+         bigMobile: clicked ? "35vh" : "100%",
          tablet: "100vh",
          desktop: "100vh"
        },
