@@ -106,7 +106,7 @@ id='imgimg' key={item.img} id="height" sx={{ p:10,}}>
              effect="blur"
             alt={item.title}
             src={item.img} // use normal <img> attributes as props
-             placeholderSrc="https://www.photofunky.net/output/image/c/3/4/6/c346b1/photofunky.gif"
+             placeholderSrc="https://i.imgur.com/yP6GLSY.gif"
              />
 
 

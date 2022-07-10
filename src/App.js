@@ -16,7 +16,7 @@ function scrollFunction() {
   document.body.style.backgroundColor = "#F0C0C9";
 
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("TitleLogo").style.height = "25vh";
+    document.getElementById("TitleLogo").style.height = "20vh";
     document.getElementById("TitleLogo").style.top = "5vh";
   //  document.getElementById("TitleLogo").style.backgroundColor = "white";
   //  document.getElementById("TitleLogo").style.animation = "";
