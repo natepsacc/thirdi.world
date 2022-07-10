@@ -74,7 +74,7 @@ const imageClick = (props) => {
          mobile: clicked ? "35vh" : "100%",
          bigMobile: clicked ? "35vh" : "100%",
          tablet: "100vh",
-         desktop: "100vh"
+         desktop: "100%"
        },
        display: "grid",
        gridTemplateColumns:{
