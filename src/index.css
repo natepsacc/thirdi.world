@@ -1,6 +1,7 @@
 body {
   font-family: "Courier New", monospace;
   background-color: #d8e8ef;
+  background-image: url('https://i.imgur.com/gRVV7mn.jpg');
   transition: 5s;
 }
 

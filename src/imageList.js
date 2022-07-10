@@ -70,6 +70,7 @@ const imageClick = (props) => {
    <Box
    onClick={toggleClicked}
      sx={{
+       m:2,
        height: {
          mobile: clicked ? "35vh" : "100%",
          bigMobile: clicked ? "35vh" : "100%",
@@ -200,7 +201,7 @@ const itemData = [
     date: '8',
     tag: 'USA',
     tag2: 'ppl',
-    mSrc: 'javascript:;',
+  //  mSrc: 'javascript:;',
 },
  {
      img: 'https://i.imgur.com/7qo6dWx.jpg',
@@ -251,14 +252,7 @@ const itemData = [
      tag2: 'ppl',
     // mSrc: 'javascript:;',
  },
- {
-     img: 'https://i.imgur.com/EQPZ1ep.jpg',
-     title: 'thirdi!',
-     date: '15',
-     tag: 'USA',
-     tag2: 'ppl',
-    // mSrc: 'javascript:;',
- },
+
  {
      img: 'https://i.imgur.com/yGsUBMN.jpg',
      title: 'thirdi!',
@@ -283,12 +277,5 @@ const itemData = [
      tag2: 'ppl',
     // mSrc: 'javascript:;',
  },
- {
-     img: 'https://i.imgur.com/gRVV7mn.jpg',
-     title: 'thirdi!',
-     date: '19',
-     tag: 'USA',
-     tag2: 'ppl',
-    // mSrc: 'javascript:;',
- },
+
 ];
