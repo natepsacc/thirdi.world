@@ -98,7 +98,7 @@ id='imgimg' key={item.img} id="height" sx={{ p:10,}}>
 
        <LazyLoadImage
        sx={{ p:10,}}
-          threshhold='1000'
+          threshhold='100'
            width="100%"
            height="inherit"
            onClick={() => imageClick(item.mSrc)}
@@ -106,7 +106,7 @@ id='imgimg' key={item.img} id="height" sx={{ p:10,}}>
              effect="blur"
             alt={item.title}
             src={item.img} // use normal <img> attributes as props
-             placeholderSrc="https://i.imgur.com/4GdCjPE.gif"
+             placeholderSrc="https://www.photofunky.net/output/image/c/3/4/6/c346b1/photofunky.gif"
              />
 
 
