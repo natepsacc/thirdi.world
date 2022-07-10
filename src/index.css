@@ -2,6 +2,9 @@ body {
   font-family: "Courier New", monospace;
   background-color: #d8e8ef;
   background-image: url('https://i.imgur.com/gRVV7mn.jpg');
+  background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
   transition: 5s;
 }
 
@@ -65,7 +68,7 @@ div.nav {
 #TitleLogo {
   z-index: 5;
   position: fixed;
-  top: 4vh;
+  top: 2vh;
   left: 50%;
   transform: translateX(-50%);
   height: 35vh;
@@ -74,13 +77,13 @@ div.nav {
   mix-blend-mode: difference;
   animation: hue 1s ease-in-out infinite alternate;
   animation: contrast 1s ease-in-out infinite alternate;
-  animation: brightness 0.7s ease-in-out infinite alternate;
-  animation: unbrightness 0.8s ease-in-out infinite alternate;
-  animation: brightness 0.3s ease-in-out infinite alternate;
-  animation: unbright 0.2s ease-in-out infinite alternate;
-  animation: brightness 0.63s ease-in-out infinite alternate;
-  animation: unbrightness 1s ease-in-out infinite alternate;
-  animation: brightness 1s ease-in-out infinite alternate;
+  animation: brightness 3.7s ease-in-out infinite alternate;
+  animation: unbrightness 3.8s ease-in-out infinite alternate;
+  animation: brightness 3.3s ease-in-out infinite alternate;
+  animation: unbright 3.2s ease-in-out infinite alternate;
+  animation: brightness 3.63s ease-in-out infinite alternate;
+  animation: unbrightness 3s ease-in-out infinite alternate;
+  animation: brightness 3s ease-in-out infinite alternate;
   animation: unbright 1s ease-in-out infinite alternate;
 }
 
