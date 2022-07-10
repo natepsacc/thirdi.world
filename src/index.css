@@ -66,11 +66,7 @@ div.nav {
   position: fixed;
   top: 4vh;
   left: 50%;
-  padding:16px;
--webkit-transform:translate(0%, -50%);
--ms-transform:translate(0%, -50%);
-transform:translate(0%, -50%);
-  right: auto;
+  transform: translateX(-50%);
   height: 35vh;
   width: auto;
   transition: 0.3s;
