@@ -1,6 +1,6 @@
 body {
   font-family: "Courier New", monospace;
-  background-color: #d8e8ef;
+  background-color: #000000;
   background-image: url('https://i.imgur.com/gRVV7mn.jpg');
   background-repeat: no-repeat;
 background-attachment: fixed;
@@ -29,7 +29,7 @@ div.nav {
   top: 5vh;
   left: 3.5vw;
   z-index: 5;
-  background-color: white;
+  background-color: #ffffff3c;
   width: fit-content;
   font-size: 12pt;
   text-decoration: none;

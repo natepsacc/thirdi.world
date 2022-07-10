@@ -76,8 +76,8 @@ const imageClick = (props) => {
          tablet:3,
          desktop:10},
        height: {
-         mobile: clicked ? "35vh" : "100%",
-         bigMobile: clicked ? "35vh" : "100%",
+         mobile: clicked ? "100%" : "100%",
+         bigMobile: clicked ? "100%" : "100%",
          tablet: "100vh",
          desktop: "100%"
        },
