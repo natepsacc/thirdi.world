@@ -21,7 +21,7 @@ function scrollFunction() {
   //  document.getElementById("TitleLogo").style.backgroundColor = "white";
   //  document.getElementById("TitleLogo").style.animation = "";
 
-		document.getElementById("nav").style.top = "2vh";
+		document.getElementById("nav").style.top = "3vh";
 
 
 
@@ -32,7 +32,7 @@ function scrollFunction() {
     //document.getElementById("TitleLogo").style.animation = "pulsefade 4s ease-in-out infinite alternate";
 
 
-		document.getElementById("nav").style.top = "25vh";
+		document.getElementById("nav").style.top = "7vh";
 
 
   }
@@ -102,10 +102,9 @@ function Logo(){
 
 		<div id="nav" class="nav">
 		<a href="#/cars" ><b class="b bionic">thir</b>di </a>
-		<a href="#/usa"> <b class="b bionic">thir</b>di </a>
-    <a href="#/cars" ><b class="b bionic">thir</b>di </a>
-    <a href="#/cars" ><b class="b bionic">thir</b>di </a>
-    <a href="#/cars" ><b class="b bionic">thir</b>di </a>
+		<a href="#/usa"> <b class="b bionic">cont</b>act </a>
+    <a href="#/cars" ><b class="b bionic">instag</b>ram </a>
+
 
 		</div>
 
