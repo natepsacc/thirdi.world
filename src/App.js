@@ -55,7 +55,14 @@ function Home(){
 	</span>
 );
 }
+function Contact(){
+	return(
+		<span>
+	<Logo/>
 
+	</span>
+);
+}
 function Rad(props){
 	return(
 		<span>
@@ -72,15 +79,9 @@ function App() {
 		<span>
 
 		<Routes>
-       <Route path='/cars' element={<Rad tag="CAR"  /> } />
+       <Route path='/contact' element={<Contact/> } />
        <Route  path='/' element={<Home /> } />
-			 <Route path='/usa' element={<Rad tag="USA"  />} />
-			 <Route path='/ppl' element={<Rad tag="ppl"  />} />
-			 <Route path='/out' element={<Rad tag="out" /> } />
-			 <Route path='/commod' element={<Rad tag="prop0623" /> } />
-       <Route path='/rad' element={<Rad tag="RAD" /> } />
-       <Route path='/prop0623' element={<Rad tag="prop0623" /> } />
-       <Route path='/midjourneyPrompts' element={<Rad tag="midjourney"/> } />
+
 
     </Routes>
 </span>
@@ -101,9 +102,9 @@ function Logo(){
 		</a>
 
 		<div id="nav" class="nav">
-		<a href="#/cars" ><b class="b bionic">thir</b>di </a>
-		<a href="#/usa"> <b class="b bionic">cont</b>act </a>
-    <a href="#/cars" ><b class="b bionic">instag</b>ram </a>
+		<a href="#/" ><b class="b bionic">thir</b>di </a>
+		<a href="#/contact"> <b class="b bionic">cont</b>act </a>
+    <a href="instagram.com/schidtery" ><b class="b bionic">instag</b>ram </a>
 
 
 		</div>
