@@ -99,7 +99,7 @@ function Logo(){
 	return(
 		<span>
 		<a href="/" >
-	<img  id="TitleLogo" alt="Schidt.co Logo" src="https://i.imgur.com/C2Hbz1u.png"/>
+	<img  id="TitleLogo" alt="Schidt.co Logo" src="https://i.imgur.com/YZPgMPM.png"/>
 		</a>
 
 		<div id="nav" class="nav">
