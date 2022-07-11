@@ -253,6 +253,14 @@ const itemData = [
   //   mSrc: 'javascript:;',
  },
  {
+     img: 'https://i.imgur.com/hDXtdYf.jpg',
+     title: 'thirdi!',
+     date: '30',
+     tag: 'USA',
+     tag2: 'ppl',
+    // mSrc: 'javascript:;',
+ },
+ {
      img: 'https://i.imgur.com/CrTrLQU.jpg',
      title: 'thirdi!',
      date: '12',
@@ -384,14 +392,7 @@ const itemData = [
      tag2: 'ppl',
     // mSrc: 'javascript:;',
  },
- {
-     img: 'https://i.imgur.com/hDXtdYf.jpg',
-     title: 'thirdi!',
-     date: '30',
-     tag: 'USA',
-     tag2: 'ppl',
-    // mSrc: 'javascript:;',
- },
+
  {
      img: 'https://i.imgur.com/1LaTgaw.jpg',
      title: 'thirdi!',
