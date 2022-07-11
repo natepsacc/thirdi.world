@@ -117,7 +117,6 @@ id='imgimg' key={item.img} id="height" sx={{backgroundColor: "#ffffff7c",
 
 
               <ImageListItemBar
-              position='below'
               sx={{
                 overflowWrap:"break-word",
 
@@ -170,14 +169,7 @@ const itemData = [
     // mSrc: 'javascript:;',
  },
 
- {
-     img: 'https://i.imgur.com/TbGLFYZ.jpg',
-     title: 'thirdi!',
-     date: '4',
-     tag: 'USA',
-     tag2: 'ppl',
-  //   mSrc: 'javascript:;',
- },
+
  {
     img: 'https://i.imgur.com/7OJjN6b.jpg',
     title: 'thirdi',
@@ -195,6 +187,30 @@ const itemData = [
   //  mSrc: 'javascript:;',
 },
 {
+    img: 'https://i.imgur.com/d8HRWdN.jpg',
+    title: 'thirdi!',
+    date: '29',
+    tag: 'USA',
+    tag2: 'ppl',
+   // mSrc: 'javascript:;',
+},
+{
+    img: ' https://i.imgur.com/UNkoPIg.jpg',
+    title: 'thirdi!',
+    date: '19',
+    tag: 'USA',
+    tag2: 'ppl',
+   // mSrc: 'javascript:;',
+},
+{
+    img: ' https://i.imgur.com/BGDF0X8.jpg',
+    title: 'thirdi!',
+    date: '20',
+    tag: 'USA',
+    tag2: 'ppl',
+   // mSrc: 'javascript:;',
+},
+{
     img: 'https://i.imgur.com/BqZGmpq.jpg',
     title: 'thirdi!',
     date: '8',
@@ -202,6 +218,7 @@ const itemData = [
     tag2: 'ppl',
   //  mSrc: 'javascript:;',
 },
+
  {
      img: 'https://i.imgur.com/7qo6dWx.jpg',
      title: 'thirdi!',
@@ -259,7 +276,14 @@ const itemData = [
      tag2: 'ppl',
     // mSrc: 'javascript:;',
  },
-
+ {
+     img: 'https://i.imgur.com/TbGLFYZ.jpg',
+     title: 'thirdi!',
+     date: '4',
+     tag: 'USA',
+     tag2: 'ppl',
+  //   mSrc: 'javascript:;',
+ },
  {
      img: 'https://i.imgur.com/yGsUBMN.jpg',
      title: 'thirdi!',
@@ -280,6 +304,97 @@ const itemData = [
      img: 'https://i.imgur.com/jhAvY8y.jpg',
      title: 'thirdi!',
      date: '18',
+     tag: 'USA',
+     tag2: 'ppl',
+    // mSrc: 'javascript:;',
+ },
+
+
+ {
+     img: ' https://i.imgur.com/P1r6aXw.jpg',
+     title: 'thirdi!',
+     date: '21',
+     tag: 'USA',
+     tag2: 'ppl',
+    // mSrc: 'javascript:;',
+ },
+ {
+     img: ' https://i.imgur.com/8N4GeKg.jpg',
+     title: 'thirdi!',
+     date: '22',
+     tag: 'USA',
+     tag2: 'ppl',
+    // mSrc: 'javascript:;',
+ },
+ {
+     img: 'https://i.imgur.com/oc3yViQ.jpg',
+     title: 'thirdi!',
+     date: '23',
+     tag: 'USA',
+     tag2: 'ppl',
+    // mSrc: 'javascript:;',
+ },
+ {
+     img: 'https://i.imgur.com/i9xdBW3.jpg',
+     title: 'thirdi!',
+     date: '24',
+     tag: 'USA',
+     tag2: 'ppl',
+    // mSrc: 'javascript:;',
+ },
+ {
+     img: 'https://i.imgur.com/9MdMIak.jpg',
+     title: 'thirdi!',
+     date: '25',
+     tag: 'USA',
+     tag2: 'ppl',
+    // mSrc: 'javascript:;',
+ },
+ {
+     img: 'https://i.imgur.com/ECJFozr.jpg',
+     title: 'thirdi!',
+     date: '26',
+     tag: 'USA',
+     tag2: 'ppl',
+    // mSrc: 'javascript:;',
+ },
+ {
+     img: 'https://i.imgur.com/MBfCOcu.jpg',
+     title: 'thirdi!',
+     date: '27',
+     tag: 'USA',
+     tag2: 'ppl',
+    // mSrc: 'javascript:;',
+ },
+ {
+     img: 'https://i.imgur.com/C2IsgI2.jpg',
+     title: 'thirdi!',
+     date: '28',
+     tag: 'USA',
+     tag2: 'ppl',
+    // mSrc: 'javascript:;',
+ },
+
+ {
+     img: 'https://i.imgur.com/ZXjXWQX.jpg',
+     title: 'thirdi!',
+     date: '29',
+     tag: 'USA',
+     tag2: 'ppl',
+    // mSrc: 'javascript:;',
+ },
+ {
+     img: 'https://i.imgur.com/hDXtdYf.jpg',
+     title: 'thirdi!',
+     date: '30',
+     tag: 'USA',
+     tag2: 'ppl',
+    // mSrc: 'javascript:;',
+ },
+ {
+     img: 'https://i.imgur.com/1LaTgaw.jpg',
+     title: 'thirdi!',
+     date: '31',
      tag: 'USA',
      tag2: 'ppl',
     // mSrc: 'javascript:;',

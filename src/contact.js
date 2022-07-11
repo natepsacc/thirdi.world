@@ -23,7 +23,7 @@ return (
    className='contactBox'
      sx={{
        borderRadius:'33%',
-       backgroundColor:"#ffffff3c",
+       backgroundColor:"#ffffff00",
        marginTop:"35vh",
        marginLeft:'50%',
        height:'100vh',
