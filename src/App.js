@@ -100,7 +100,7 @@ function Logo(props){
 	return(
 		<span>
 		<a href="/" >
-	<img  className="TitleLogo" id="TitleLogo"  alt="Schidt.co Logo" src="https://i.imgur.com/NrYM2op.png"/>
+	<img  className="TitleLogo" id="TitleLogo"  alt="thirdi Logo" src="https://i.imgur.com/5TeEDTO.png"/>
 		</a>
 
 		<div id="nav" class="nav">

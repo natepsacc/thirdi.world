@@ -117,6 +117,7 @@ id='imgimg' key={item.img} id="height" sx={{backgroundColor: "#ffffff7c",
 
 
               <ImageListItemBar
+              position='below'
               sx={{
                 overflowWrap:"break-word",
 

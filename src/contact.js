@@ -24,7 +24,7 @@ return (
      sx={{
        borderRadius:'33%',
        backgroundColor:"#ffffff00",
-       marginTop:"35vh",
+       marginTop:"16vh",
        marginLeft:'50%',
        height:'100vh',
        p:2,
