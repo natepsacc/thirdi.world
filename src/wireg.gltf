@@ -1,0 +1,36 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Globe 3D Model.obj.cleaner.materialmerger.gles",
+            "rotation" : [
+                0,
+                0.7071068286895752,
+                -0.7071068286895752,
+                5.685572339079542e-17
+            ],
+            "scale" : [
+                0.10000002384185791,
+                0.10000001639127731,
+                0.10000001639127731
+            ],
+            "translation" : [
+                3.814697265625e-06,
+                3.814697265625e-06,
+                0
+            ]
+        }
+    ]
+}

@@ -8,6 +8,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import InputLabel from '@mui/material/InputLabel';
+import ThreeDL from './threeDLogo.js';
 
 
 
@@ -79,7 +80,6 @@ function App() {
 
 	return (
 		<span>
-
 		<Routes>
        <Route path='/contact' element={<Contact/> } />
        <Route  path='/' element={<Home /> } />
@@ -100,7 +100,8 @@ function Logo(props){
 	return(
 		<span>
 		<a href="/" >
-	<img  className="TitleLogo" id="TitleLogo"  alt="thirdi Logo" src="https://i.imgur.com/5TeEDTO.png"/>
+    <ThreeDL/>
+
 		</a>
 
 		<div id="nav" class="nav">
@@ -115,6 +116,8 @@ function Logo(props){
 );
 }
 function unusued(){
+  //<img  className="TitleLogo" id="TitleLogo"  alt="thirdi Logo" src="https://i.imgur.com/5TeEDTO.png"/>
+
   //<a href="https://instagram.com/schidt.co/">
 //  <img  id="igLogo" alt="Schidt.co IG Logo" src="https://i.imgur.com/inu4zIh.png" />
 //  </a>

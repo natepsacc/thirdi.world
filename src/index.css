@@ -82,7 +82,28 @@ div.nav {
   margin: none;
   list-style: none;
 }
+.thirditext{
+  animation:rotate 1.7s ease-in-out infinite alternate;
+  height: 40vh;
+  position: fixed;
+  top: 2;
+  left: 36%;
+  transform: translateX(-80%);
 
+  width: auto;
+  z-index: 4;
+}
+.threedl{
+  position: fixed;
+  top: -35vh;
+  left: 50%;
+  transform: translateX(-50%);
+  mix-blend-mode: difference;
+
+  width: auto;
+  height: 100vh;
+  z-index: 5;
+}
 img.TitleLogo {
   z-index: 5;
   position: fixed;
@@ -141,7 +162,15 @@ filter: hue-rotate(359deg);
   color: #F0C0C9;
   transition: 1s;
 }
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(358deg);
 
+  }
+}
 @keyframes brightness {
   0% {
     opacity: 80;
