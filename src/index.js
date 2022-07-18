@@ -7,12 +7,19 @@ import { Canvas } from 'react-three-fiber';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <>
 
+<span className="above">
   <HashRouter basename='/'>
-      <App/>
+      <App className="above"/>
 
 
     </HashRouter>
+
+    </span>
+    <img className='bgimg' src='https://i.imgur.com/gRVV7mn.jpg'/>
+
+    </>
 );
 
 // If you want to start measuring performance in your app, pass a function

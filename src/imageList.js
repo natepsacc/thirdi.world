@@ -9,11 +9,12 @@ import imageListItemClasses from "@material-ui/core/ImageListItem";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-
+import './index.css';
 
 
 
 const theme = createTheme({
+  zIndex:100000000,
   breakpoints: {
     values: {
       mobile: 0,
@@ -62,11 +63,12 @@ const imageClick = (props) => {
   const [clicked, setClicked] = useState(false)
   const toggleClicked = () => setClicked((prev) => !prev)
       return (
-<span id='imagelistspan'>
+<span className='imagelistspan'>
       <ThemeProvider theme={theme}>
 
    <Box
    onClick={toggleClicked}
+   className='above'
      sx={{
        backgroundColor: "#ffffff7c",
        m:{
@@ -97,11 +99,11 @@ const imageClick = (props) => {
 
 
        <ImageListItem
-id='imgimg' key={item.img} id="height" sx={{backgroundColor: "#ffffff7c",
+id='imgimg' key={item.img} id="height" sx={{zIndex: 5,backgroundColor: "#ffffff7c",
 }}>
 
        <LazyLoadImage
-       sx={{ p:10,       backgroundColor: "#ffffff7c",
+       sx={{ zIndex: 5,p:10,       backgroundColor: "#ffffff7c",
 }}
           threshhold='100'
            width="100%"
@@ -119,6 +121,7 @@ id='imgimg' key={item.img} id="height" sx={{backgroundColor: "#ffffff7c",
               <ImageListItemBar
               position='below'
               sx={{
+
                 overflowWrap:"break-word",
 
                 bgcolor:'background.paper',

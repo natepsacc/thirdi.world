@@ -47,9 +47,9 @@ function Home(){
   console.log('fuck');
 
 	return(
-		<span>
+		<span className="above">
 	<Logo/>
-	<StandardImageList tag="all" gridColumns="2"/>
+	<StandardImageList className='above' tag="all" gridColumns="2"/>
 	</span>
 );
 
@@ -57,7 +57,7 @@ function Home(){
 function Contact(){
 
   	return(
-		<span>
+		<span className="above">
 	<Logo/>
 
 <Contactsheet/>
@@ -68,9 +68,9 @@ function Contact(){
 }
 function Rad(props){
 	return(
-		<span>
+		<span className="above">
 	<Logo/>
-	<StandardImageList tag={props.tag} gridColumns="2"/>
+	<StandardImageList className='above' tag={props.tag} gridColumns="2"/>
 	</span>
 );
 }
