@@ -98,7 +98,7 @@ function App() {
 function Logo(props){
 
 	return(
-		<span>
+		<>
 
 		<a href="/" >
     <ThreeDL/>
@@ -113,7 +113,7 @@ function Logo(props){
 
 		</div>
 
-		</span>
+		</>
 );
 }
 function unusued(){

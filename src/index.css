@@ -10,6 +10,10 @@ background-position: center;
 .above{
   z-index: 3;
 }
+.aboveAbove{
+  z-index: 7;
+
+}
 .imagelistspan{
   position: absolute;
   z-index: 2;
@@ -20,6 +24,7 @@ img.bgimg{
   left: 0;
   top: 0;
   height: 100vh;
+  height: -webkit-fill-available;
   width: 100vw;
   background-position: center;
   background-size: contain;
@@ -70,7 +75,7 @@ div.nav {
   filter: brightness(1.1);
 }
 .contactBox{
-  z-index: 3;
+  z-index: 7;
   position: relative;
   right: 50%;
   text-align: center;
@@ -116,19 +121,19 @@ div.nav {
 }
 .threedl{
   position: fixed;
-  top: -35vh;
+  top: -30vh;
   left: 50%;
   transform: translateX(-50%);
   mix-blend-mode: difference;
-
+  padding-top:0;
   width: auto;
-  height: 100vh;
+  height: 100%;
   z-index: 5;
 }
 img.TitleLogo {
   z-index: 5;
   position: fixed;
-  top: 2vh;
+  top: 0vh;
   left: 50%;
   transform: translateX(-50%);
   height: 35vh;
