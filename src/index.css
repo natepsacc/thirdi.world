@@ -74,6 +74,7 @@ div.nav {
   position: relative;
   right: 50%;
   text-align: center;
+  transform: translateX(50%);
 }
 .imgSvg {
   z-index: 6;
