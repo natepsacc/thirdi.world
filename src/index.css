@@ -1,7 +1,7 @@
 body {
   font-family: "Monaco", italic;
   font-style: italic;
-  background-color: #d8e8ef;
+  background-color: #596263;
   background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
@@ -31,6 +31,7 @@ img {
 }
 img.profpic{
   z-index: 2;
+  position: relative;
   border-radius: 50%;
   border-color: #0f00003c;
   width: 25vw;
@@ -69,8 +70,10 @@ div.nav {
   filter: brightness(1.1);
 }
 .contactBox{
+  z-index: 3;
+  position: relative;
+  right: 50%;
   text-align: center;
-  transform: translateX(-50%);
 }
 .imgSvg {
   z-index: 6;

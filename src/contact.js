@@ -11,6 +11,8 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import PhoneForwardedOutlinedIcon from '@mui/icons-material/PhoneForwardedOutlined';
 import ForwardToInboxOutlinedIcon from '@mui/icons-material/ForwardToInboxOutlined';
+import './index.css';
+
 export default function Contactsheet(props) {
 
 
@@ -18,7 +20,7 @@ return (
 
 
 
-<span>
+<span className="above">
    <Box
    className='contactBox'
      sx={{

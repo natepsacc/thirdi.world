@@ -44,7 +44,6 @@ function scrollFunction() {
 let tagapp = "all";
 
 function Home(){
-  console.log('fuck');
 
 	return(
 		<span className="above">
@@ -60,7 +59,7 @@ function Contact(){
 		<span className="above">
 	<Logo/>
 
-<Contactsheet/>
+<Contactsheet className="above"/>
 <StandardImageList tag='none' />
 	</span>
 );
@@ -80,6 +79,7 @@ function App() {
 
 	return (
 		<span>
+
 		<Routes>
        <Route path='/contact' element={<Contact/> } />
        <Route  path='/' element={<Home /> } />
@@ -99,6 +99,7 @@ function Logo(props){
 
 	return(
 		<span>
+
 		<a href="/" >
     <ThreeDL/>
 
